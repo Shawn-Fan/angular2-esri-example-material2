@@ -18,7 +18,7 @@ import { LegendComponent } from './legend.component';
 import { BasemapSelect } from './basemapselect.component';
 import { LayerComponent } from './layer.component';
 
-//import {DynamicHTMLOutlet} from './DynamicHTMLOutlet';
+//import {DynamicComponent} from './DynamicComponent';
 
 @ng.Component({
   selector: 'my-app',
