@@ -25,7 +25,7 @@ Built with:
 * [ArcGIS API for JavaScript]
 * [Angular 2]
 * [TypeScript]
-* [Angular Material2]
+* Angular Material2
 
 [ArcGIS API for JavaScript]:https://developers.arcgis.com/javascript/
 [Angular 2]:https://angular.io/
