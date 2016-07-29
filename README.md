@@ -30,4 +30,5 @@ Built with:
 [ArcGIS API for JavaScript]:https://developers.arcgis.com/javascript/
 [Angular 2]:https://angular.io/
 [TypeScript]:http://www.typescriptlang.org/
-[Angular Material2]:https://github.com/angular/material2
+[TypeScript1]:http://www.typescriptlang.org/
+[Angular Material2]:https://github.com/angular/material2/
