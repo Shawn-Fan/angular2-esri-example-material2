@@ -1,0 +1,31 @@
+<md-sidenav-layout class="demo-sidenav-layout">
+            <md-sidenav #start mode="side">
+                    <button md-button (click)="start.close()">Close Sidenav</button>
+                    <br>
+                    <br>
+                    <h4>{{title}}</h4>
+                    <div>
+                        <h5>Layer Visibility</h5>
+                        <esri-layer></esri-layer>
+                    </div>
+                    <div >
+                        <h5>Legend</h5>
+                        <esri-legend></esri-legend>
+                    </div> 
+                    <div>
+                        <h5>Basemap</h5>
+                        <basemap-select (basemapSelected)="onBasemapSelected($event)"></basemap-select>
+                    </div>                         
+                    <br>
+            </md-sidenav>
+            <md-toolbar color="primary">
+                <button md-fab (click)="start.open()">
+                    <mdicon>OpenSide</mdicon>
+                </button>
+            </md-toolbar>
+            <div>
+                <esri-map [itemId]="itemId" [options]="mapOptions" (mapLoaded)="onMapLoad($event)">
+                    <esri-search [options]="searchOptions"></esri-search>
+                </esri-map>
+            </div>                     
+</md-sidenav-layout>
